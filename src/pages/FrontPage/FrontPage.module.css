@@ -1,0 +1,6 @@
+.container {
+    margin: 0;
+    display: grid;
+    height: calc(100vh * 4);
+    grid-template-rows: 5fr 12fr 2fr;
+}
