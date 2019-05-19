@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-rows: var(--premisFooterLogoHeight) 2fr;   
+}
+
+.container > h2 {
+    align-self: end;
+    margin: 0; /* Remove default margin for h2 tag */
+    padding-bottom: var(--footerMatchLogoPadding);
+}
+
+.links > :first-child {
+    margin-top: var(--footerMarginBetweenHeadingAndContent);
+}
+
+.links {
+    font-size: var(--footerFontSize);
+    color: var(--footerFontColor);
+}
+
+.links > * > p {
+    margin: 5px 0;
+}

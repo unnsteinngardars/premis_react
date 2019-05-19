@@ -1,0 +1,17 @@
+.container {
+
+}
+
+.articles {
+    /* FLEX SOLUTION */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end; */
+
+    /* GRID SOLUTION */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: end;
+}
+

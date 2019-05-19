@@ -3,5 +3,29 @@
         "aboutUs": "UM OKKUR",
         "products": "VÖRUR",
         "history": "SAGAN"
+    },
+    "footer": {
+        "contact": {
+            "address": "Holtavegur 10",
+            "province": "104 Reykjavík",
+            "phone": "547 0000",
+            "email": "info@premis.is",
+            "ssn": "Kt. 540199-2569",
+            "vsk": "Vsk. nr. 61001"
+        },
+        "webTree": {
+            "header": "VEFTRÉ",
+            "about": "Um okkur",
+            "products": "Vörur",
+            "history": "Sagan"
+        },
+        "socialMedia": {
+            "header": "SAMFÉLAGSMIÐLAR"
+        },
+        "mailingList": {
+            "header": "PÓSTLISTI",
+            "body": "Vertu ávalt með puttann á púlsinum og skráðu þig á póstlista Premis.",
+            "placeholder": "Sláðu inn netfang"
+        }
     }
 }

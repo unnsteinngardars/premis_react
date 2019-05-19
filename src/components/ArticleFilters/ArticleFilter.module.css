@@ -1,0 +1,14 @@
+.container {
+    display: flex;   
+    flex-direction: row-reverse;
+}
+
+.container > h3 {
+    margin-left: 40px;
+}
+
+.container > h3:hover {
+    cursor: pointer;
+    color: goldenrod;
+}
+

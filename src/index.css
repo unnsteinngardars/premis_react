@@ -1,3 +1,21 @@
+:root {
+  /* Margin */
+  --bodyMargin: 0 200px;
+  --footerMargin: 200px 150px 200px 150px;
+  
+  /* Filter */
+  --filterHeight: 70px;
+  --filterMargin: 30px 0; 
+
+  /* Footer related global styles */
+  --footerMarginBetweenHeadingAndContent: 30px;
+  --premisFooterLogoHeight: 70px;
+  --footerFontColor: gray;
+  --footerFontSize: 12px;
+
+  --articleBoxSizeDesktop: 300px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -12,7 +30,6 @@ code {
     monospace;
 }
 
-P {
+p {
   font-family: 'Montserrat';
-  color: white;
 }

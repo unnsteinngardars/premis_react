@@ -1,0 +1,18 @@
+.container {
+    /* FLEX SOLUTION */
+    /* margin: 250px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+
+    /* GRID SOLUTION */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: end;
+    margin: 250px 0;
+}
+
+.container > * {
+    width: var(--articleBoxSizeDesktop);
+}

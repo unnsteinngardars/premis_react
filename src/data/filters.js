@@ -1,0 +1,1 @@
+export default ["Lífið", "Tónlist", "Íþróttir" ,"Fréttir"];

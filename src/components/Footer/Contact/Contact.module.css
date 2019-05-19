@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-rows: var(--premisFooterLogoHeight) 2fr;   
+}
+
+.text > p {
+    margin: 5px 0;
+    font-size: var(--footerFontSize);
+    color: var(--footerFontColor)
+}
+
+.text > p:first-child {
+    margin-top: 30px;
+}

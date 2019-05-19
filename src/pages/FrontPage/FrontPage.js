@@ -7,12 +7,13 @@ import data from "../../data/articles";
 
 export default class FrontPage extends Component {
     render(){
-        console.log(data);
         return (
             <div className={styles.container}>
                 <Header/>
-                <ArticleList articles={data}/>
-                <Footer/>
+                <div className={styles.body}>
+                    <ArticleList articles={data}/>
+                    <Footer/>
+                </div>
             </div>
         )
     }

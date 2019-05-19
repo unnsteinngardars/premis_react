@@ -1,0 +1,21 @@
+.container {
+    width: var(--articleBoxSizeDesktop);
+}
+
+.container :hover {
+    cursor: pointer;
+}
+
+.image {
+    width: var(--articleBoxSizeDesktop);
+}
+
+.type > p {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.body {
+    font-size: 10pt;
+}
+

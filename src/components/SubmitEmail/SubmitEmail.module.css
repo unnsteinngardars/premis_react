@@ -1,0 +1,38 @@
+
+.container {
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.container > input {
+    margin-left: 20px;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.container > input[type=text] {
+    color: white;
+    font-size: 12pt;
+}
+
+.container > input::placeholder {
+    color: white;
+    font-size: 12pt;
+}
+
+.container > input:focus {
+    outline: none;
+}
+
+.envelope {
+    margin-right: 20px;
+}
+
+.envelope :hover {
+    cursor: pointer;
+}

@@ -11,6 +11,8 @@
 }
 
 .links {
+    color: white;
+    font-weight: bolder;
     grid-area: links;
     display: flex;
     flex-direction: row;
@@ -19,4 +21,8 @@
 
 .facebookLogo {
     grid-area: facebook;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
