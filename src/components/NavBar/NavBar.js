@@ -9,7 +9,7 @@ import text from "../../assets/text.json";
 export const NavBar = () => (
     <div className={styles.container}>
         <div className={styles.premisLogo}>
-            <Logo logo={premis} size={'4vw'}/>
+            <Logo logo={premis}/>
         </div>
         <div className={styles.links}>
             <Link title={text.navBar.aboutUs}/>
@@ -17,7 +17,7 @@ export const NavBar = () => (
             <Link title={text.navBar.history}/>
         </div>
         <div className={styles.facebookLogo}>
-            <Logo logo={facebookIcon} size={'1.5vw'}/>
+            <Logo logo={facebookIcon}/>
         </div>
     </div>
 )

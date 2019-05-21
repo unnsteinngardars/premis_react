@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import styles from "./ArticleFilter.module.css";
 import filters from "../../data/filters";
 import PropTypes from "prop-types";
-import { FILTER_NOTHING } from "../../constants";
-
-filters.push(FILTER_NOTHING); // TODO refactor
-
 class ArticleFilters extends Component {
    
     render() {
@@ -24,7 +20,6 @@ class ArticleFilters extends Component {
     }
 
     filter  = (event) => {
-        // this.setState({selected: event.target.innerHTML});
         const { filter } = this.props;
         filter(event.target.innerHTML);
     }
@@ -32,7 +27,8 @@ class ArticleFilters extends Component {
 
 
 ArticleFilters.propTypes = {
-    filter: PropTypes.func.isRequired
+    filter: PropTypes.func.isRequired,
+    selected: PropTypes.string.isRequired
 }
 
 export default ArticleFilters;

@@ -10,7 +10,7 @@ for(let i = 0; i < n; ++i) {
         body: faker.lorem.paragraphs(),
         date: faker.date.past(),
         image: faker.image.image(),
-        type: filters[parseInt(getRandomNumberOnInterval(0, filters.length))]
+        type: filters[parseInt(getRandomNumberOnInterval(1, filters.length))]
     });
 };
 

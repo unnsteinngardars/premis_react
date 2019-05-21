@@ -6,7 +6,6 @@
 .container > h2 {
     align-self: end;
     margin: 0; /* Remove default margin for h2 tag */
-    font-size: 1.5vw;
     padding-bottom: var(--footerMatchLogoPadding);
 }
 

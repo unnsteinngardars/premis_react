@@ -10,12 +10,21 @@
     cursor: pointer;
 }
 
-.type > p {
+.type > h3 {
     color: goldenrod;
     font-weight: bolder;
+    font-size: 1em;
 }
 
-.body {
-    font-size: 10pt;
+.title > h2 {
+    font-size: 1.5em;
+}
+
+.body > p {
+    font-size: 0.7em;
+}
+
+.date > p {
+    font-size: 0.9em;
 }
 

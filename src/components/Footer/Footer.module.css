@@ -25,14 +25,23 @@
         margin-left: 1vw;
     }
 
+    /* add margin top to first two footer elements */
     .container > *:nth-child(-n+2) {
         margin-top: 10vh;
-    }
-
+    } 
+    
+    /* add margin bottom to the last two footer elements */
     .container > *:nth-last-child(-n+2) {
         margin-bottom: 10vh;
     }
-    
+
+    .container > * p {
+        font-size: 10pt;
+    }
+
+    .container > * h2 { 
+        font-size: 14pt;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -42,13 +51,22 @@
         justify-items: center;
     }
 
+    /* add margin top to the first footer element */
     .container > *:first-child {
         margin-top: 10vh;
     }
 
+    /* add margin bottom to the last footer element  */
     .container > *:nth-last-child(-n+1) {
         margin-bottom: 10vh;
     }
 
+    .container > * p {
+        font-size: 10pt;
+    }
+
+    .container > * h2 {
+        font-size: 14pt;
+    }
 }
 
