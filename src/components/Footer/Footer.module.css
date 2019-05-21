@@ -14,7 +14,20 @@
     .container > * {
         margin: 20vh 0 20vh 0;
     }
-}
+
+    .container > * p {
+        font-size: 10pt;
+    }
+
+    .container > * h2 { 
+        font-size: 14pt;
+    }
+
+    /* Patch to prevent Social Media content to clash with Mailing List content */
+    .container > *:nth-child(3) {
+        padding-right: 5em;
+    }
+} 
 
 /* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

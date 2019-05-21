@@ -1,5 +1,5 @@
 .container {
-    margin: 6vw 12vw 0 12vw; 
+    margin: 3vw 12vw 0 12vw; 
     display: grid;
     grid-template-columns: auto 1fr auto;
 }
@@ -39,13 +39,26 @@
     .links > * {
         font-size: 6pt; 
     }
-
     .facebookLogo > * img {
         height: 15px;
     }
-
     .premisLogo > * img {
         height: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        grid-template-columns: auto auto auto;
+    }
+    .links > * {
+        font-size: 6pt; 
+    }
+    .facebookLogo > * img {
+        height: 20px;
+    }
+    .premisLogo > * img {
+        height: 50px;
     }
 }
 
