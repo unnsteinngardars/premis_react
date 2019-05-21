@@ -54,12 +54,12 @@
 
     /* add margin top to the first footer element */
     .container > *:first-child {
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
 
     /* add margin bottom to the last footer element  */
     .container > *:nth-last-child(-n+1) {
-        margin-bottom: 10vh;
+        margin-bottom: 20vh;
     }
 
     .container > * p {
