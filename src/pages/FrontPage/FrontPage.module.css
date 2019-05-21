@@ -1,10 +1,3 @@
-.container {
-    margin: 0;
-    height: calc(100vh * 3);
-    display: grid;
-    grid-template-rows: calc(120vh) auto;
-}
-
-.body { 
-    margin: var(--bodyMargin);
+.bodyAndFooter {
+    margin: 0 8vw 0 8vw;
 }

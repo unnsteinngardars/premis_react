@@ -1,13 +1,13 @@
 .container {
-    width: var(--articleBoxSizeDesktop);
+    margin: 1vw;
+}
+
+.image {
+    width: 100%;
 }
 
 .container :hover {
     cursor: pointer;
-}
-
-.image {
-    width: var(--articleBoxSizeDesktop);
 }
 
 .type > p {

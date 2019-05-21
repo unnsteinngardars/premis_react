@@ -1,6 +1,7 @@
 .container {
     display: grid;
     grid-template-rows: var(--premisFooterLogoHeight) 2fr;   
+    margin-left: 2px;
 }
 
 .text > p {

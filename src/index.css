@@ -1,8 +1,5 @@
 :root {
-  /* Margin */
-  --bodyMargin: 0 200px;
-  --footerMargin: 200px 150px 200px 150px;
-  
+
   /* Filter */
   --filterHeight: 70px;
   --filterMargin: 30px 0; 
@@ -13,7 +10,7 @@
   --footerFontColor: gray;
   --footerFontSize: 12px;
 
-  --articleBoxSizeDesktop: 300px;
+  /* Media Queries */
 }
 
 body {

@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import { NavBar } from "../NavBar/NavBar";
 import arrow from "../../assets/svg/down-arrow.svg";
 
-export default ({ props }) => (
+export default () => (
     <div className={styles.container}>
         <div className={styles.navBar}>
             <NavBar/>

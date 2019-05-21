@@ -1,28 +1,24 @@
 .container {
+    margin: 6vw 6vw 0 6vw; 
     display: grid;
-    grid-template-columns: 50px auto 500px 50px;
-    grid-template-rows: 50px;
-    grid-template-areas: 
-        "premis . links facebook";
-}
-
-.premisLogo {
-    grid-area: premis;
+    grid-template-columns: auto 1fr auto;
 }
 
 .links {
     color: white;
     font-weight: bolder;
-    grid-area: links;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-self: center;
 }
 
+.links > * {
+    padding-right: 3em;
+}
+
+
 .facebookLogo {
-    grid-area: facebook;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
     text-align: center;
 }

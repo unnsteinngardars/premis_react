@@ -1,31 +1,22 @@
 .container {
     background-image: url(../../assets/img/hero1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top; /* Keep on top along the y-axis, no second value implies center along x-axis */
+    background-size: contain; 
+    background-repeat: no-repeat; 
     
+    /* Magic number to make cover photo span whole width and scale to all devices */
+    height: 70vw; 
+
     display: grid;
-    grid-template-columns: 120px auto 50px 120px;
-    grid-template-rows: 50px auto 50px 200px;
-    grid-template-areas: 
-    ". . ."
-    ". header ."
-    ". arrow ."
-    ". . ."
+    grid-template-rows: 2fr 1fr;
 }
 
-.navBar {
-    grid-area: header;
-}
-  
 .arrowContainer {
-    grid-area: arrow;
     color: white;
     text-align: center;
 }
 
 .arrow {
-    height: 40px;
+    height: 1.5em;
 }
 
 .arrowContainer :hover {

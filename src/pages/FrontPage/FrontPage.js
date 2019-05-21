@@ -8,9 +8,9 @@ import data from "../../data/articles";
 export default class FrontPage extends Component {
     render(){
         return (
-            <div className={styles.container}>
+            <div>
                 <Header/>
-                <div className={styles.body}>
+                <div className={styles.bodyAndFooter}>
                     <ArticleList articles={data}/>
                     <Footer/>
                 </div>
