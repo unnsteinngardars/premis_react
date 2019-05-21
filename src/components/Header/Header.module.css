@@ -2,10 +2,7 @@
     background-image: url(../../assets/img/hero1.png);
     background-size: contain; 
     background-repeat: no-repeat; 
-    
-    /* Magic number to make cover photo span whole width and scale to all devices */
-    height: 70vw; 
-
+    height: 65vw; /* Magic number to make cover photo span whole width and scale to all devices */
     display: grid;
     grid-template-rows: 2fr 1fr;
 }

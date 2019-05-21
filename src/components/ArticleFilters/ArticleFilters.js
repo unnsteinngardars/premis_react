@@ -25,7 +25,6 @@ class ArticleFilters extends Component {
     }
 }
 
-
 ArticleFilters.propTypes = {
     filter: PropTypes.func.isRequired,
     selected: PropTypes.string.isRequired

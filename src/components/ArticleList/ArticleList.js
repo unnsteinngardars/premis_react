@@ -3,7 +3,6 @@ import styles from "./ArticleList.module.css";
 import ArticleListItem from "../ArticleListItem/ArticleListItem";
 import ArticleFilters from "../ArticleFilters/ArticleFilters";
 import { FILTER_NOTHING } from "../../constants";
-
 export default class ArticleList extends Component {
     constructor(props) {
         super(props);

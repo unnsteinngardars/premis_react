@@ -1,8 +1,15 @@
 import React from "react";
-import styles from "./Logo.module.css";
+import PropTypes from "prop-types";
 
-export default ({ logo, size }) => (
-    <div className={styles.container}>
+const Logo = ({ logo, size }) => (
+    <div>
         <img style={{height: size}} src={logo} alt=""/>
     </div>
 )
+
+Logo.propTypes = {
+    logo: PropTypes.string.isRequired,
+    size: PropTypes.number
+}
+
+export default Logo;

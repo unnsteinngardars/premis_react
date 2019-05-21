@@ -19,6 +19,13 @@ export default ({ article, bodyCutoff }) => (
     </div>
 );
 
+/**
+ * Formats the dateString to icelandic with month in text form.
+ * Example of input Sat Mar 09 2019 19:04:42 GMT+0000 (Greenwich Mean Time) 
+ * Example of outpyt 9. Mars 2019
+ * @param string the dateString to format
+ * @returns The formated string
+ */
 function formatDateString(string) {
     const dateString = new Date(string).toDateString().slice(4, string.length); // Remove Date from DateString with slice
     const monthMap = {
@@ -39,7 +46,7 @@ function formatDateString(string) {
     let day = toParse[1];
     const month = toParse[0];
     const year = toParse[2];
-    day = day.length === 2 && day.substring(0, 1) === "0" ? day.slice(1, 2) : day;
+    day = day.length === 2 && day.substring(0, 1) === "0" ? day.slice(1, 2) : day; // Remove leading 0 if it exists.
     const finalString = `${day}. ${monthMap[month]} ${year}`;
     return <p>{finalString.toString()}</p>
 }
